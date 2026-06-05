@@ -1,0 +1,21 @@
+# Ignore Rust source code to maintain closed-source status
+yggdrasil_msm_core/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local temporary or simulation files
+msm_advisor_work.py
+msm_benchmark.py
+msm_gpu_benchmark.py
+verify_msm.py
+controlled_sandbox.py
+roofline_model.md
+walkthrough.md
+
+# OS files
+.DS_Store
+Thumbs.db
